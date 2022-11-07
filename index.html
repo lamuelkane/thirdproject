@@ -22,43 +22,24 @@
     - The freeCodeCamp Team
 
     -->
-      <h1 id="title">sample form</h1>
-      <p id="description">Thank you for taking the time to help us improve the platform</p>
-      <form action="" id="survey-form">
-        <!-- <div class="input-holder"> -->
-            <label id="name-label" for="name">Name</label>
-            <input required type="text" id="name" placeholder="name">
-        <!-- </div> -->
-        <!-- <div class="input-holder"> -->
-          <label id="email-label" for="email">Email</label>
-          <input required type="email" id="email" placeholder="email">
-        <!-- </div> -->
-        <!-- <div class="input-holder"> -->
-          <label id="number-label" for="number">Age</label>
-          <input type="number" min="10" max="100" id="number" placeholder="Age">
-       <!-- </div> -->
-       <label for="select">Which option best describes your current role?</label>
-       <select name="select" id="dropdown">
-          <option value="student">student</option>
-          <option value="teacher">teacher</option>
-          <option value="worker">worker</option>
-       </select>
-       <label for="">Would you recommend freeCodeCamp to a friend?</label>
-       <!-- <div> -->
-        <input type="radio" value="value1" name="recommend" id="">
-        <input type="radio" value="value2" name="recommend" id="">
-       <!-- </div> -->
-       <label for="">What is your favorite feature of freeCodeCamp?</label>
-       <!-- <div> -->
-        <input type="checkbox" value="checkbox1" id="">
-        <input type="checkbox" value="checkbox2" id="">
-       <!-- </div> -->
+    <!-- <div class="space"></div> -->
+    <header id="header">
+        <img src="https://th.bing.com/th/id/OIP.kmc-2IzCxrTPiKJ_w0w9uwHaHa?w=187&h=187&c=7&r=0&o=5&pid=1.7" height="60" width="60" alt="" id="header-img">
+        <nav id="nav-bar"  >
+            <a href="#form" class="nav-link">link1</a>
+            <a href="#form" target="_blank" class="nav-link">link2</a>
+            <a href="#form" class="nav-link">link3</a>
+        </nav>  
+    </header>
 
-       <textarea name="" id="" cols="30" rows="10"></textarea>
-
-       <button id="submit">Submit</button>
-      </form>
-
+    <iframe width="560" height="315"  src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="Roman Carnival Overture Op. 9 for Five Trombones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" id="video"></iframe>
+   
+    <!-- <iframe src="https://www.youtube.com/watch?v=gxL0H_YoVds" id="video" frameborder="0"></iframe> -->
+    <div class="space"></div>
+    <form action="https://www.freecodecamp.com/email-submit" style="background: black;" method="post" id="form" >
+        <input type="email" name="email" placeholder="email" id="email">
+        <input type="submit"  value="submit" id="submit">
+    </form>
 
 
     <script  src="js/index.js"></script>
