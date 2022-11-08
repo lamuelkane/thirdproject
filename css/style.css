@@ -1,23 +1,11 @@
-#header{
-    position: sticky;
-    top: 0;
+#img-div{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    background-color: aqua;
+    flex-direction: column;
 }
 
-.space{
-    margin-top: 1000px;
-}
-
-.nav-link{
-    margin-right: 10px;
-}
-
-
-@media screen and (max-width : 800px) {
-   body{
-    background: grey;
-   }
+#image{
+    max-width: 80vw;
+    max-height: 400px;
 }

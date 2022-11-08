@@ -21,25 +21,34 @@
 
     - The freeCodeCamp Team
 
-    -->
-    <!-- <div class="space"></div> -->
-    <header id="header">
-        <img src="https://th.bing.com/th/id/OIP.kmc-2IzCxrTPiKJ_w0w9uwHaHa?w=187&h=187&c=7&r=0&o=5&pid=1.7" height="60" width="60" alt="" id="header-img">
-        <nav id="nav-bar"  >
-            <a href="#form" class="nav-link">link1</a>
-            <a href="#form" target="_blank" class="nav-link">link2</a>
-            <a href="#form" class="nav-link">link3</a>
-        </nav>  
-    </header>
+    for (let i = 1; i < scores.length; i++) {
+        if (max > scores[i]) {
+            max = scores[i];
+            maxCount++;
+        }
 
-    <iframe width="560" height="315"  src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="Roman Carnival Overture Op. 9 for Five Trombones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" id="video"></iframe>
+        if (min < scores[i]) {
+            min = scores[i];
+            minCount++;
+        }
+    }
+
+    return [minCount, maxCount];
+
+    -->
    
-    <!-- <iframe src="https://www.youtube.com/watch?v=gxL0H_YoVds" id="video" frameborder="0"></iframe> -->
-    <div class="space"></div>
-    <form action="https://www.freecodecamp.com/email-submit" style="background: black;" method="post" id="form" >
-        <input type="email" name="email" placeholder="email" id="email">
-        <input type="submit"  value="submit" id="submit">
-    </form>
+    <main id="main">
+        <div id="title">this is the title</div>
+
+        <div id="img-div">
+            <img  src="https://th.bing.com/th/id/OIP.Wytlw5AmN2HoCJ_kLGF1EgHaF7?w=228&h=182&c=7&r=0&o=5&pid=1.7" alt="" id="image">
+            <div id="img-caption">this is the caption of the image</div>
+        </div>
+
+        <div id="tribute-info">this is one of the most random text you have seen</div>
+        <a href="" target="_blank" id="tribute-link"></a>
+
+    </main>
 
 
     <script  src="js/index.js"></script>
